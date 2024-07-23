@@ -1,0 +1,15 @@
+name: test-junior
+recipe: laravel
+config:
+  webroot: ./public
+  php: "8.2"
+services:
+  node:
+    type: node:18
+  mailserver:
+    type: mailhog
+    hogfrom:
+      - appserver
+tooling:
+  yarn:
+    service: node
