@@ -11,9 +11,11 @@
 
 Questo progetto è stato realizzato per testare le conoscenze e capacità di uno/a sviluppatore/trice con la piattaforma [Laravel](https://laravel.com/docs) come backend, integrata con [VueJS](https://vuejs.org/guide/introduction.html) come frontend attraverso [Inertia.js](https://inertiajs.com/).
 
-A supporto dello sviluppo, in caso non si voglia/possa creare l'ambiente locale di Apache+Node+Mail, è presente un file di configurazione per l'utilizzo di [Lando](https://docs.lando.dev/getting-started/), che permette sviluppare su qualunque macchina in modo veloce.
+L'applicativo utilizza un database SQLite per la gestione dei dati.
 
 Una volta avviato l'applicativo, tramite i comandi _npm run dev_ e _php artisan serve_, si troveranno nella pagina principale i punti necessari per completare il test.
+
+A supporto dello sviluppo, in caso non si voglia/possa creare l'ambiente locale di Apache+Node+Mail, è presente un file di configurazione per l'utilizzo di [Lando](https://docs.lando.dev/getting-started/), che permette sviluppare su qualunque macchina in modo veloce.
 
 ## About Laravel
 
