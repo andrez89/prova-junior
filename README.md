@@ -1,3 +1,12 @@
+# Test Junior
+
+Questo progetto è stato realizzato per testare le conoscenze e capacità di uno/a sviluppatore/trice con la piattaforma [Laravel](https://laravel.com/docs) come backend, integrata con [VueJS](https://vuejs.org/guide/introduction.html) come frontend attraverso [Inertia.js](https://inertiajs.com/) ed eventuale utilizzo di librerie aggiuntive, come [PrimeVue](https://primevue.org/vite/) e lo strumento di versioning [Git](https://git-scm.com/docs).
+
+L'applicativo utilizza un database MySQL per la gestione dei dati.
+Una volta avviato l'applicativo, tramite i comandi _npm run dev_ e _php artisan serve_, si troveranno nella pagina principale i punti necessari per completare il test.
+
+A supporto dello sviluppo, in caso non si voglia/possa creare l'ambiente locale di Apache+Node+Mail, è presente un file di configurazione per l'utilizzo di [Lando](https://docs.lando.dev/getting-started/), che permette sviluppare su qualunque macchina in modo veloce.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -6,16 +15,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-
-## Test Junior
-
-Questo progetto è stato realizzato per testare le conoscenze e capacità di uno/a sviluppatore/trice con la piattaforma [Laravel](https://laravel.com/docs) come backend, integrata con [VueJS](https://vuejs.org/guide/introduction.html) come frontend attraverso [Inertia.js](https://inertiajs.com/).
-
-L'applicativo utilizza un database SQLite per la gestione dei dati.
-
-Una volta avviato l'applicativo, tramite i comandi _npm run dev_ e _php artisan serve_, si troveranno nella pagina principale i punti necessari per completare il test.
-
-A supporto dello sviluppo, in caso non si voglia/possa creare l'ambiente locale di Apache+Node+Mail, è presente un file di configurazione per l'utilizzo di [Lando](https://docs.lando.dev/getting-started/), che permette sviluppare su qualunque macchina in modo veloce.
 
 ## About Laravel
 
