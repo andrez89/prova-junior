@@ -2,10 +2,13 @@
 
 Questo progetto è stato realizzato per testare le conoscenze e capacità di uno/a sviluppatore/trice con la piattaforma [Laravel](https://laravel.com/docs) come backend, integrata con [VueJS](https://vuejs.org/guide/introduction.html) come frontend attraverso [Inertia.js](https://inertiajs.com/) ed eventuale utilizzo di librerie aggiuntive, come [PrimeVue](https://primevue.org/vite/) e lo strumento di versioning [Git](https://git-scm.com/docs).
 
-L'applicativo utilizza un database MySQL per la gestione dei dati.
+L'applicativo utilizza un database mySQL per la gestione dei dati. È necessario avere un ambiente di sviluppo con php 8.2, mySQL e un server web (apache o nginx). Una possibilità per crearlo sulla propria macchina è l'utilizzo di [XAMPP](https://www.apachefriends.org/download.html) o software simili, ma oltre a questo è necessario l'utilizzo di librerie PHP tramite composer e javascript tramite NodeJS ed npm/yarn.
+
 Una volta avviato l'applicativo, tramite i comandi _npm run dev_ e _php artisan serve_, si troveranno nella pagina principale i punti necessari per completare il test.
 
-A supporto dello sviluppo, in caso non si voglia/possa creare l'ambiente locale di Apache+Node+Mail, è presente un file di configurazione per l'utilizzo di [Lando](https://docs.lando.dev/getting-started/), che permette sviluppare su qualunque macchina in modo veloce.
+A supporto dello sviluppo, in caso non si voglia/possa creare l'ambiente locale di Apache+Node+Mysql, è presente un file di configurazione per l'utilizzo di [Lando](https://docs.lando.dev/getting-started/), che permette sviluppare su qualunque macchina in modo rapido grazie ai docker pre-costruiti.
+
+Il test inizia dal download dell'applicativo, che richiede la creazione dell'ambiente di sviluppo, l'avvio del programma e la modifica del sorgente per completare i requisiti definiti al suo interno. Se hai dubbi o domande, non esitare ad utilizzare strumenti e documentazione per completare il test. Buon lavoro! 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
