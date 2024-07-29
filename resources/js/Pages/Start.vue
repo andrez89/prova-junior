@@ -179,6 +179,12 @@ defineProps({
                                         modifiche in modo incrementale
                                     </li>
                                     <li>
+                                        Utilizza le funzioni di validazione per
+                                        l'inserimento delle candidature,
+                                        evitando errori se mancano campi
+                                        obbligatori
+                                    </li>
+                                    <li>
                                         Crea un Factory delle Application e
                                         utilizzalo per popolare il database con
                                         il comando seed di laravel
